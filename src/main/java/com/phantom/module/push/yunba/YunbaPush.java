@@ -105,7 +105,7 @@ public class YunbaPush implements IOCallback,IPush {
     public void onConnAck(JSONObject json) throws Exception {
         System.out.println("onConnAck success " + json.get("success"));
         for(int i=0;i<10;i++){
-            socket.emit("publish", new JSONObject("{'topic': '111', 'msg': 'hello form java socket.io client2'}"));
+            socket.emit("publish", new JSONObject("{'topic': '111', 'msg': 'hello form java socket.io client2"+ System.currentTimeMillis()+"'}"));
 
         }
     }

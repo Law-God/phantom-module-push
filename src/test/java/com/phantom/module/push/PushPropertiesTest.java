@@ -32,7 +32,8 @@ public class PushPropertiesTest {
 
     @Test
     public void push() throws Exception {
-        //push.onConnAck("");
+        JSONObject jsonObject = new JSONObject(new HashMap(){{put("success",true);}});
+        push.onConnAck(jsonObject);
 
     }
 }
