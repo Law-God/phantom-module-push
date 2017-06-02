@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.phantom:phantom-common:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/setup/maven/apache-maven-3.1.0/repository/com/phantom/phantom-common/1.0.0-SNAPSHOT/phantom-common-1.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/setup/maven/apache-maven-3.1.0/repository/com/phantom/phantom-common/1.0.0-SNAPSHOT/phantom-common-1.0.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/setup/maven/apache-maven-3.1.0/repository/com/phantom/phantom-common/1.0.0-SNAPSHOT/phantom-common-1.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
